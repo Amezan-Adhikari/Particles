@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="grid place-items-center h-screen relative">
+        <canvas id="canvas" height="600" width="800" class="bg-gray-400 rounded-sm">
+
+        </canvas>
+        <div id="stateChange" class="absolute left-20">
+            <label for="particleSize" class="text-lg bg-pink-200 p-4 rounded-lg border border-pink-800">Particle color</label>
+            <input type="color" name="" id="particleColor" class="h-10 bg-blue-500 cursor-pointer">
+        </div>
+
+    </div>
+
+    <script src="Scripts/main.js"  type="module"></script>
+</body>
+</html>
